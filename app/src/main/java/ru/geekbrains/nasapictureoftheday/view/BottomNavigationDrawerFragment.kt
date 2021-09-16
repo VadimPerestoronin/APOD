@@ -24,8 +24,16 @@ class BottomNavigationDrawerFragment : BottomSheetDialogFragment() {
 
         navigation_view.setNavigationItemSelectedListener { menuItem ->
             when (menuItem.itemId) {
-                R.id.navigation_one -> Toast.makeText(context, "1", Toast.LENGTH_SHORT).show()
-                R.id.navigation_two -> Toast.makeText(context, "2", Toast.LENGTH_SHORT).show()
+                R.id.navigation_one -> {
+                    requireActivity().setTheme(R.style.Theme_NASAPictureOfTheDayCustom)
+                    requireActivity().recreate()
+                    Toast.makeText(context, "1", Toast.LENGTH_SHORT).show()
+                }
+                R.id.navigation_two -> {
+                    requireActivity().setTheme(R.style.Theme_NASAPictureOfTheDay)
+                    requireActivity().recreate()
+                    Toast.makeText(context, "2", Toast.LENGTH_SHORT).show()
+                }
             }
             true
         }
