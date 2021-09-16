@@ -30,4 +30,6 @@
     <string name="horizontal">horizontal</string>
     <string name="scroll">scroll</string>
     <string name="close_icon_listener">Close Icon Listener</string>
+    <string name="menu_bottom_1">Выбрать тему Custom</string>
+    <string name="menu_bottom_2">Выбрать тему Default</string>
 </resources>
