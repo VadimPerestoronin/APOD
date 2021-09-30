@@ -39,20 +39,28 @@
 
 
     </style>
+
     <style name="AppTextAppearance.Button" parent="TextAppearance.MaterialComponents.Button">
         <item name="android:textAllCaps">false</item>
     </style>
+
     <style name="AppButton" parent="Widget.MaterialComponents.Button">
         <item name="backgroundTint">@color/button_background</item>
     </style>
+
     <style name="AppShapeAppearance.SmallComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
         <item name="cornerFamily">cut</item>
         <item name="cornerSize">8dp</item>
     </style>
 
+    <style name="Theme.NASAPictureOfTheDayCustom.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
 
+    <style name="Theme.NASAPictureOfTheDayCustom.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
-
+    <style name="Theme.NASAPictureOfTheDayCustom.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 
 </resources>
