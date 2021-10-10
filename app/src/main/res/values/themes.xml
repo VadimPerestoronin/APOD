@@ -58,6 +58,10 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="Theme.NASAPictureOfTheDay.Splash">
+        <item name="android:windowBackground">@drawable/splash_background_drawable</item>
+    </style>
+
     <style name="Theme.NASAPictureOfTheDayCustom.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.NASAPictureOfTheDayCustom.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />

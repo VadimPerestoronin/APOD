@@ -15,13 +15,17 @@
             android:name=".api.ApiActivity"
             android:label="@string/title_activity_api"
             android:theme="@style/Theme.NASAPictureOfTheDayCustom.NoActionBar"></activity>
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/Theme.NASAPictureOfTheDay.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".recycler.RecyclerActivity" />
 
         <meta-data
             android:name="preloaded_fonts"
