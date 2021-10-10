@@ -13,6 +13,8 @@
     <color name="colorAccentCustom">#333333</color>
     <color name="background">#BABABA</color>
     <color name="button_background">#555555</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent40Alfa">#662962FF</color>
 
 
 </resources>

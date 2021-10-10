@@ -24,8 +24,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/default_margin"
                 android:layout_marginTop="@dimen/default_margin"
-                android:text="Raised Button"
+                android:fontFamily="@font/acme"
 
+                android:text="Raised Button"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
